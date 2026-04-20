@@ -718,6 +718,17 @@ nav .nav-inner {
   font-size: 18px;
 }
 
+/* ── Secondary Button (Dark Variant) ────────────────────────── */
+.btn-secondary {
+  background: var(--dark);
+  color: var(--white) !important;
+}
+
+.btn-secondary:hover {
+  background: var(--brown) !important;
+  transform: translateY(-2px);
+}
+
 /* ── Footer ──────────────────────────────────── */
 footer {
   background: var(--dark);
